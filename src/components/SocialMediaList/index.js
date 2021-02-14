@@ -55,9 +55,10 @@ const SocialMediaList = () => {
 
   return (
     <div
+      className="social-media-list"
       css={css`
-        .gatsby-image-wrapper {
-          margin: 10px;
+        a:not(:last-child) {
+          margin-right: 20px;
         }
       `}
     >

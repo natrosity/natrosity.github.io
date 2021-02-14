@@ -37,9 +37,10 @@ const MusicPlatformList = () => {
 
   return (
     <div
+      className="music-platform-list"
       css={css`
-        .gatsby-image-wrapper {
-          margin: 20px;
+        a:not(:last-child) {
+          margin-right: 35px;
         }
       `}
     >

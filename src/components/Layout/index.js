@@ -5,7 +5,7 @@ import BackgroundImage from "gatsby-background-image";
 
 import AppHeader from "natrosity-components/AppHeader";
 import AppFooter from "natrosity-components/AppFooter";
-import { WHITE } from "natrosity-styles/colors";
+import { DEFAULT_LINK_COLOR, WHITE } from "natrosity-styles/colors";
 
 const Layout = (props) => {
   // See https://www.gatsbyjs.com/plugins/gatsby-background-image/
@@ -30,7 +30,7 @@ const Layout = (props) => {
         styles={css`
           html {
             color: ${WHITE};
-            font-family: "-apple-system, Roboto, sans-serif, serif";
+            font-family: "Garamond, sans-serif, serif, Roboto";
             height: 100%;
           }
 
@@ -50,7 +50,25 @@ const Layout = (props) => {
 
           .page-contents {
             flex: 1 0 auto;
-            padding: 3em 6em 3em 6em;
+            padding: 5em 10em 5em 10em;
+          }
+
+          a {
+            color: ${DEFAULT_LINK_COLOR};
+          }
+
+          h1 {
+            font-size: 1.5rem;
+          }
+
+          h2 {
+            font-size: 1.2rem;
+          }
+
+          h1,
+          h2 {
+            margin: 0;
+            font-weight: 400;
           }
         `}
       />

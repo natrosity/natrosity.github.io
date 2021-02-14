@@ -7,7 +7,7 @@ const AppFooter = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div
+    <h1
       css={css`
         ${HEADER_FOOTER_FRAGMENT};
         // Sticky footer
@@ -15,10 +15,11 @@ const AppFooter = () => {
         flex-shrink: 0;
         text-align: center;
         padding: 1em 0 1em 0;
+        font-size: 0.9rem;
       `}
     >
       Copyright © {currentYear} Natrosity
-    </div>
+    </h1>
   );
 };
 

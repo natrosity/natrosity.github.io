@@ -6,8 +6,13 @@ const Button = (props) => {
     <div
       css={css`
         background-color: red;
+        display: flex;
         width: fit-content;
-        padding: 1em;
+        padding: 1rem;
+
+        a {
+          text-decoration: none;
+        }
       `}
     >
       {props.children}
