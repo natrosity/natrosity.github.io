@@ -23,7 +23,7 @@ const AppNavbar = () => {
             <li
               key={index}
               css={css`
-                padding: 1em;
+                padding: 0em 1em 0em 1em;
               `}
             >
               <h2>{item.title}</h2>

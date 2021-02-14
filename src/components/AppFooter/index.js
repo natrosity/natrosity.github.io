@@ -14,6 +14,7 @@ const AppFooter = () => {
         margin-top: auto;
         flex-shrink: 0;
         text-align: center;
+        padding: 1em 0 1em 0;
       `}
     >
       Copyright © {currentYear} Natrosity

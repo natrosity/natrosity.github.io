@@ -14,7 +14,7 @@ const AppHeader = () => {
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
-        padding: 1em 1em 1em 1em;
+        padding: 0.2em 6em 0.2em 6em;
       `}
     >
       <AppLogo />

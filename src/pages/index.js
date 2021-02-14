@@ -2,6 +2,7 @@ import * as React from "react";
 import { css } from "@emotion/react";
 
 import Button from "natrosity-components/Button";
+import SocialMediaList from "natrosity-components/SocialMediaList";
 
 // styles
 const pageStyles = {
@@ -102,11 +103,7 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <main
-      css={css`
-        background-image: url("../images/background.jpeg");
-      `}
-    >
+    <main>
       <title>Home Page</title>
       <h1 style={headingStyles}>The only rapper without a face tatt</h1>
       <h1>
@@ -115,6 +112,7 @@ const IndexPage = () => {
         No More Love Songs
       </h1>
       <Button>LISTEN NOW</Button>
+      <SocialMediaList />
     </main>
   );
 };
