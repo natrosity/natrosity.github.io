@@ -10,6 +10,7 @@
   "scripts": {
     "deploy": "gatsby build && gh-pages -d public -b main",
     "develop": "gatsby develop",
+    "develop-lan": "gatsby develop --host=0.0.0.0",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
